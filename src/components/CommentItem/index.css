@@ -1,0 +1,86 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.row1 {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.row1 .profile {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.logo {
+  text-align: center;
+  padding: 0px;
+}
+.name {
+  margin-top: 0px;
+  font-size: 26px;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.like-tab {
+  display: flex;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  border-style: none;
+}
+button img {
+  width: 20px;
+}
+.time-tab {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.time-tab p {
+  margin-left: 20px;
+  padding-top: 0px;
+  margin-top: 10px;
+}
